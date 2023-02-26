@@ -26,3 +26,34 @@ body {
 .content {
 	padding: 200px;
 }
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+  }
+  
+  ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	background-color: #555;
+  }
+  
